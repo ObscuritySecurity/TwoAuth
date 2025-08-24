@@ -1,33 +1,40 @@
 {
-  "name": "TwoAuth",
-  "short_name": "TwoAuth",
-  "description": "Privacy-focused 2FA Authenticator",
-  "start_url": "/",
-  "display": "fullscreen",
-  "background_color": "#0A0A0A",
-  "theme_color": "#0A0A0A",
-  "orientation": "portrait-primary",
-  "icons": [
+ „nume“: „TwoAuth“,
+ „scurt_name“: „TwoAuth“,
+ „descriere“: „Autentificator 2 FA axat pe confidenţialitate“,
+ „start_url“: „https://two-auth.vercel.app/",
+ „afisare“: „ecran complet“,
+ „fundal_color“: „#0A0A0A“,
+ „temă_culoare“: „#0A0A0A“,
+ „orientare“: „portret-primar“,
+ „icoane“: [
     {
-      "src": "/icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
+ „src“: „/icon-192x192. . .png“,
+ „dimensiuni“: „192x192“,
+ „tip“: „imagine/png“,
+ „scop“: „orice mascabil“
     },
     {
-      "src": "/icon-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+ „src“: „/icon-512x512. . .png“,
+ „dimensiuni“: „512x512“,
+ „tip“: „imagine/png“,
+ „scop“: „orice mascabil“
     }
   ],
-  "shortcuts": [
+ „scurtări“: [
     {
-      "name": "Add Code",
-      "short_name": "Add",
-      "description": "Add a new 2FA code",
-      "url": "/add",
-      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+ „nume“: „Adăugaţi cod“,
+ „scurt_name“: „Adăugaţi“,
+ „descriere“: „Adaugă un nou cod 2 FA“,
+ „url“: „/adăugaţi“,
+ „icoane“: [
+        {
+ „src“: „/icon-192x192. . .png“,
+ „dimensiuni“: „192x192“
+        }
+      ]
     }
-  ]
+  ],
+ „id“: „https://two-auth.vercel.app/",
+ „lang“: „en“
 }
