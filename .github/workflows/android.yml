@@ -41,8 +41,7 @@ jobs:
             }
           },
           "server": {
-            "url": "https://two-auth.vercel.app",
-            "androidScheme": "https"
+            "androidScheme": "htts"
           }
         }' > capacitor.config.json
     - run: npx cap add android
