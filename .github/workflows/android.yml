@@ -9,7 +9,7 @@ jobs:
       with:
         node-version: '20'
     - run: npm install
-    - run: npm install @capacitor/camera @capgo/capacitor-native-biometric
+    - run: npm install @capacitor/core @capacitor/cli @capacitor/android @capacitor/camera @capgo/capacitor-native-biometric
     - name: Setup custom logo
       run: |
         mkdir -p public/assets/icon/
@@ -58,4 +58,4 @@ jobs:
     - uses: actions/upload-artifact@v4
       with:
         name: android-app
-        path: android/app/build/outputs/apk/debug/app-debug.apk
+        path: android/app/build/outputs/apk/debug/app-debug.apkk
