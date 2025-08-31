@@ -95,3 +95,4 @@ For questions or suggestions, please open an issue or contact us directly on Git
 
 > Protect yourself. No compromises.  
 > **TwoAuth — Secure authentication without betrayal.**
+ 
