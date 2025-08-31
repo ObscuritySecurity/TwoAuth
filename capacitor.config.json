@@ -1,0 +1,9 @@
+{
+          "appId": "com.obscuritysecurity.twoauth",
+          "appName": "TwoAuth",
+          "webDir": "out",
+          "icon": "assets/icon/icon.png",
+          "server": {
+            "androidScheme": "https"
+          }
+        }
