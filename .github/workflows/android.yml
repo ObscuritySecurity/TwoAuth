@@ -41,7 +41,7 @@ jobs:
             }
           },
           "server": {
-            "androidScheme": "https"
+            "androidScheme": "http"
           }
         }' > capacitor.config.json
     - run: npx cap add android
