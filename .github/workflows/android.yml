@@ -9,21 +9,18 @@ jobs:
       with:
         node-version: '20'
     - run: npm install
-    # Instalează plugin-urile necesare (singurul lucru necesar)
-    - run: npm install @capacitor/core@^7.0.0 @capacitor/cli@^7.0.0 @capacitor/android@^7.0.0 @capacitor/camera @capgo/capacitor-native-biometric
+    - run: npm install @capacitor/camera @capgo/capacitor-native-biometric
     - name: Setup custom logo
       run: |
-        # Copiază logo-ul tău existent (înlocuiește cu calea corectă)
         mkdir -p public/assets/icon/
-        if [ -f "assets/my-logo.png" ]; then
-          cp assets/my-logo.png public/assets/icon/icon.png
-          echo "Custom logo applied successfully"
+        if [ -f "assets/logo.png" ]; then
+          cp assets/logo.png public/assets/icon/icon.png
+          echo "Custom logo applied"
         else
-          echo "Using default logo"
           sudo apt-get install -y imagemagick
           convert -size 512x512 xc:'#2563EB' -gravity center -pointsize 100 -fill white -annotate +0+0 "2FA" public/assets/icon/icon.png
         fi
-    - name: Configure Next.js for export
+    - name: Configure Next.js
       run: |
         echo "module.exports = { output: 'export', trailingSlash: true, distDir: 'out', typescript: { ignoreBuildErrors: true } }" > next.config.js
     - run: npm run build
@@ -34,8 +31,16 @@ jobs:
           "appName": "TwoAuth",
           "webDir": "out",
           "icon": "assets/icon/icon.png",
+          "plugins": {
+            "Camera": {
+              "cameraPermission": "Necesită acces la cameră pentru scanarea codurilor QR"
+            },
+            "NativeBiometric": {
+              "biometricAuth": true
+            }
+          },
           "server": {
-            "androidScheme": "http://localhost",
+            "androidScheme": "https"
           }
         }' > capacitor.config.json
     - run: npx cap add android
