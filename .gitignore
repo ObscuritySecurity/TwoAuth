@@ -3,3 +3,4 @@ node_modules/
 android/
 out/
 .capacitor/
+.next/cache/
