@@ -10,9 +10,12 @@ jobs:
         node-version: '18'
     - run: npm install
     - run: npm install @capacitor/core @capacitor/cli @capacitor/android
+    - name: Configure Next.js for export
+      run: |
+        echo "module.exports = { output: 'export', trailingSlash: true, distDir: 'out' }" > next.config.js
     - run: npm run build
     - name: Verify build output
-      run: ls -la
+      run: ls -la out/
     - name: Create capacitor.config.json
       run: |
         echo '{
