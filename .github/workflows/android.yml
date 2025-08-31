@@ -9,7 +9,7 @@ jobs:
       with:
         node-version: '20'
     - run: npm install
-    - run: npm install @capacitor/core@^7.0.0 @capacitor/cli@^7.0.0 @capacitor/android@^7.0.0 @capacitor/camera @capgo/capacitor-native-biometric
+    - run: npm install @capacitor/core@^7.0.0 @capacitor/cli@^7.0.0 @capacitor/android@^7.0.0 @capacitor/camera @aparajita/capacitor-biometric-auth
     - name: Copy custom icon
       run: |
         if [ -f "assets/logo.png" ]; then
@@ -36,7 +36,7 @@ jobs:
             "Camera": {
               "cameraPermission": "Necesită acces la cameră pentru scanarea codurilor QR"
             },
-            "NativeBiometric": {
+            "BiometricAuth": {
               "biometricAuth": true
             }
           },
@@ -46,7 +46,6 @@ jobs:
         }' > capacitor.config.json
     - run: npx cap add android
     - run: npx cap sync android
-    # ADAUGAT: Permisiuni Android automate ↓
     - name: Add Android permissions
       run: |
         echo '<?xml version="1.0" encoding="utf-8"?>
@@ -56,6 +55,7 @@ jobs:
           <uses-permission android:name="android.permission.CAMERA" />
           <uses-permission android:name="android.permission.USE_BIOMETRIC" />
           <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+          <uses-permission android:name="android.permission.USE_FACE" />
 
           <application>
           </application>
