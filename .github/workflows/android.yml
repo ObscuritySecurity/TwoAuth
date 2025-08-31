@@ -10,7 +10,7 @@ jobs:
         node-version: '20'
     - run: npm install
     # Instalează plugin-urile necesare (singurul lucru necesar)
-    - run: npm install @capacitor/core@^7.0.0 @capacitor/cli@^7.0.0 @capacitor/android@^7.0.0 @capacitor/biometrics @capacitor/camera
+    - run: npm install @capacitor/core@^7.0.0 @capacitor/cli@^7.0.0 @capacitor/android@^7.0.0 @capacitor/camera @capgo/capacitor-native-biometric
     - name: Setup custom logo
       run: |
         # Copiază logo-ul tău existent (înlocuiește cu calea corectă)
