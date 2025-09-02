@@ -1,40 +1,40 @@
 # TwoAuth
 
-> **Respecting the person behind the screen.**
+> **Respectarea oamenilor din spatele ecranului.**
 
-TwoAuth is a two-factor authentication (2FA) app built on one simple, radical idea: **respect for the user**.
-
----
-
-## Why TwoAuth?
-
-For a simple 6-digit code, you usually give away:
-
-- Your location  
-- Device information  
-- IP address  
-- Behavioral data  
-- And more  
-
-And yes — it’s “free.”  
-
-But **you are the product**.
-
-We say **“Enough of that.”**  
-So we built something different.
+TwoAuth este o aplicație de autentificare cu doi factori (2 FA) construită pe o idee simplă și radicală: **respect pentru utilizator**.
 
 ---
 
-## What does TwoAuth offer?
+## De ce TwoAuth?
 
-- ❌ No ads  
-- ❌ No tracking  
-- ❌ No analytics  
-- ❌ No logs  
-- ❌ No cloud  
-- ❌ No internet connection required  
+Pentru un cod simplu de 6 cifre, de obicei oferiți:
 
-**No data is collected. Nothing at all.**
+- Dvs Locația 
+- Informații despre dispozitiv 
+- Adresă IP 
+- Data comportamentului 
+- Și mai mult 
+
+Și da — este “free.” 
+
+Dar **tu ești produșul**.
+
+Noi spunem **“Destul de asta.”**  
+Așa că am construit ceva diferit.
+
+---
+
+## Ce oferă TwoAuth?
+
+- ❌ Fără resclame 
+- ❌ Fără urmărire 
+- ❌ Fără analize 
+- ❌ Fără bușteni 
+- ❌ Fără nici 
+- ❌ Nu este necesară conexiune la internet 
+
+**Nu sunt colect data. Nimic.**
 
 ---
 
