@@ -42,10 +42,14 @@ export default function SettingsPage() {
   const [newSettingsPassword, setNewSettingsPassword] = useState('');
   const [confirmSettingsPassword, setConfirmSettingsPassword] = useState('');
   const [settingsPasswordError, setSettingsPasswordError] = useState('');
+  const [isUnlocked, setIsUnlocked] = useState(false);
 
-  // This must be initialized after context is available.
-  const [isUnlocked, setIsUnlocked] = useState(context ? !context.hasSettingsPassword : false);
 
+  useEffect(() => {
+    if (context) {
+      setIsUnlocked(!context.hasSettingsPassword);
+    }
+  }, [context]);
 
   useEffect(() => {
     if (context && !context.hasSettingsPassword && !context.settings.promptedForSettingsPassword) {
@@ -55,8 +59,18 @@ export default function SettingsPage() {
   }, [context]);
 
   if (!context) {
-    router.push('/');
-    return null;
+    // Show a loading state or redirect. A loading state is better for initial render.
+    return (
+       <>
+         <header className="flex items-center border-b p-4">
+            <Button variant="ghost" size="icon" disabled>
+                <ArrowLeft />
+            </Button>
+            <h1 className="ml-4 font-headline text-xl font-bold">Settings</h1>
+        </header>
+        <SettingsSkeleton />
+       </>
+    );
   }
   
   const { hasSettingsPassword, verifySettingsPassword, setSettingsPassword, t } = context;
