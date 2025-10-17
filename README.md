@@ -1,4 +1,4 @@
-  TwoAuth
+ ## TwoAuth
 
 > **Respect for the people behind the screen.**
 
