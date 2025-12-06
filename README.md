@@ -2,7 +2,7 @@
 
 > **Respect for the people behind the screen.**
 
-TwoAuth is a two-factor authentication (2FA) application built on a simple and radical idea: **respect for the user**.
+TwoAuth is a two-factor authentication (2FA) application built on a simple and radical idea: **respect for the people**.
 
 ---
 
