@@ -1,50 +1,51 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/adrianhajdin/2fa-app/main/public/two-auth-logo.png" alt="TwoAuth Logo" width="128">
+<div alinia=„centru“>
+  <<img lăţime=„1024“ înălţime=„1024“ alt=„1000005676“ src=„https://github.com/user-attachments/assets/154dd953-5e0e-4591-9c2d-fefcd2602701„/>
+img =„Logo TwoAuth“ lătime=„128“>
   <h1>TwoAuth</h1>
-  <strong>Your Keys, Your Fortress. The Privacy-First 2FA Authenticator.</strong>
+  <puternic>Cheile Tale, Cetatea Ta. Autentificatorul Privacy-First 2FA.</puternic>
 </div>
 
-<p align="center">
-  <a href="https://github.com/adrianhajdin/2fa-app/actions">
-    <img src="https://img.shields.io/github/actions/workflow/status/adrianhajdin/2fa-app/android.yml?branch=main&style=for-the-badge&logo=githubactions" alt="Build Status">
+<p alinia=„centru“>
+  <a href=„https://github.com/adrianhajdin/2fa-app/actions„>
+    <img src=„https://img.shields.io/github/actions/workflow/status/adrianhajdin/2fa-app/android.yml?branch=main&stil=pentru-insignă&logo=githubactions“ alt=„Starea clădirii“>
   </a>
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT">
+  <a href=„https://opensource.org/licenses/MIT„>
+    <img src=„https://img.shields.io/badge/License-MIT-yellow.svg?style=pentru-insignă“ alt=„Licență: MIT“>
   </a>
 </p>
 
 ---
 
-TwoAuth is a free, open-source, and privacy-focused two-factor authentication (2FA) application that works exclusively on your device. It's built with a **100% client-side, serverless architecture**, ensuring that your sensitive data never leaves your control. This is not just an app; it's a digital fortress for your online identity.
+TwoAuth este o aplicație de autentificare cu doi factori (2 FA) gratuită, open-source și axată pe confidențialitate, care funcționează exclusiv pe dispozitivul dvs. Este construit cu a **Arhitectură 100% pe partea clientului, fără server**, asigurări-vă că datele dvs. sensibile nu părăsesc niciodată controlul. Acesta nu este doar o aplicație; este o fortăreață digitală pentru identitatea dvs. online.
 
-### Table of Contents
-- [✨ Key Features](#-key-features)
-- [🛡️ Security Deep Dive: A Client-Side Fortress](#-security-deep-dive-a-client-side-fortress)
-- [🚀 Getting Started (User Guide)](#-getting-started-user-guide)
-- [🤝 Contributing Guide](#-contributing-guide)
-- [📦 Publishing as an Android App](#-publishing-as-an-android-app)
-- [🛠️ Troubleshooting](#-troubleshooting-for-manual-uploads)
-
----
-
-## ✨ Key Features
-
--   🔒 **Fortress-Grade Security:** 100% client-side architecture means no servers, no databases, and no remote attack surface. All your data is encrypted with AES-GCM and stored exclusively on your device.
--   🎨 **Total Customization:** A rich theme gallery, custom accent colors, and multi-language support (15+ languages) allow you to make the app truly yours.
--   🌐 **Universal Access:** Works on any modern browser as a Progressive Web App (PWA), providing a native-app experience without the app store.
--   📦 **Secure Backup & Restore:** Encrypted and unencrypted backup options give you full control over your data portability.
--   🛡️ **Advanced Protection:** Built-in defenses against brute-force attacks, an optional self-destruct mechanism, and a separate password for settings provide multiple layers of local security.
--   🧠 **Smart & Simple UI:** A clean, intuitive interface powered by React and ShadCN UI makes managing your codes effortless.
+### Cuprină
+- [✨ Caracteristici cheie](#-caracteristici-cheie)
+- [ ?? ?? Securitate Deep Dive: o fortăreață la nivelul clientului](#-securitate-scufundare fântână-o-client-side-fortress)
+- [🚀 Noțiuni introductive (Ghid de utilizare)](#-începe-ghidul-utilizator)
+- [🤝 Ghid de contribuție](#-ghid-contributor)
+- [📦 Publicarea ca aplicație Android](#-publicare-ca-un-android-app)
+- [ ?? ?? Depanator](#-depanare-pentru-încărcări-manuale)
 
 ---
 
-## 🛡️ Security Deep Dive: A Client-Side Fortress
+## ✨ Caracteristici cheie
 
-This application is designed with a **privacy-first, client-side-only** architecture. This fundamentally protects it from a vast majority of web-based attacks, including remote code execution (RCE) vulnerabilities like the critical **CVE-2025-55182**.
+- 🔒 **Securitate de grad fortăreață:** Arhitectura 100% pe partea clientului înseamănă fără servere, fără baze de date și fără suprafață de atac de la distanță. Toate datele dvs. sunt criptate cu AES-GCM și stocate exclusiv pe dispozitivul dvs.
+- 🎨 **Personalizare totală:** O galerie bogată de teme, culori de accent personalizare și suport pentru mai multe limbi (15+ limbi) vă permit să faceți aplicația cu adevărul a dvs.
+- 🌐 **Acces universal:** Funcționează pe orice browser modern ca o aplicație web progresivă (PWA), oferind o experiență de aplicație nativă fără magazinul de aplicații.
+- 📦 **Backup și restaurare securizate:** Opțiunile de backup criptate și necriptate vă oferă control deplin asupra portabilității datelor.
+- ⁇  ⁇ **Protecție avansată:** Apărarea încorporată împotriva atacurilor cu forță brută, un mecanism opțional de autodistrugere și o parolă separată pentru setări oferă mai multe straturi de securitate locală.
+- 🧠 **Interfață de utilizare inteligentă și simplă:** O interfață curată și intuitivă alimentată de interfața de utilizare React și ShadCN face ca gestionarea codurilor dvs. să fie fără efort.
 
--   **Zero Server Attack Surface:** The app is a static export (`output: 'export'`). There is **no active Next.js server** running in production to receive requests or be attacked. Vulnerabilities targeting server-side logic, such as RCEs that rely on processing malicious server-side payloads (like React Flight), are irrelevant to our deployed application. An attacker simply has no server to target.
+---
 
--   **Zero-Knowledge Encryption:** Your master password is used to derive a key that encrypts all your TOTP secrets using modern, strong cryptographic standards (AES-GCM). The password itself is never stored—only a hash used for local verification. Without your master password, the stored data is just unintelligible text.
+## ⁇  ⁇  Security Deep Dive: A Client-Side Fortress
+
+Această aplicație este proiectat cu un **confidențialitate-în primul rând, client-side-doar** arhitectură. Acest lucru îl protejează în mod fundamental de marea majoritate a atacurilor bazate pe web, inclusiv vulnerabilitățile de execuție a codului de la distanță (RCE), cum ar fi cele critice **CVE-2025-55182**.
+
+-   **Suprafață de atac zero server:** Aplicația este un export static (`ieșire: „export“`). Există **niciun server Next.js activ** rulează în producție pentru a primi cereri sau a fi atacat. Vulnerabilitățile care vizează logica pe partea serverului, cum ar fi RCE-urile care se bazează pe procesarea sarcinilor utile rău intenționate pe partea serverului (cum ar fi React Flight), sunt irelevante pentru aplicația noastră implementată. Un atacator pur și simplu nu are server de vizat.
+
+-   **Criptare cu cunoștințe zero:** Parola dvs. principală este folosită pentru a obține o cheie care criptează toate secretele dvs. TOTP folosind standarde criptografice moderne și puternice (AES-GCM). Parola în sine nu este niciodată stocată doar un hash folosit pentru verificarea locală. Fără parola principală, datele stocate sunt doar text de neînțeles.
 
 -   **Local-Only Fortress:** Even if an attacker gains physical or malware-based access to your device, our built-in protections make it extremely difficult to compromise your data:
     -   **Brute-Force Protection:** The app progressively locks out access for increasing durations after several failed password attempts.
