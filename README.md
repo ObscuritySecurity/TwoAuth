@@ -1,23 +1,19 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/adrianhajdin/2fa-app/main/public/two-auth-logo.png" alt="TwoAuth Logo" width="128">
   <h1>TwoAuth</h1>
   <strong>Your Keys, Your Fortress. The Privacy-First 2FA Authenticator.</strong>
 </div>
 
 <p align="center">
-  <a href="https://github.com/adrianhajdin/2fa-app/actions">
-    <img src="https://img.shields.io/github/actions/workflow/status/adrianhajdin/2fa-app/android.yml?branch=main&style=for-the-badge&logo=githubactions" alt="Build Status">
-  </a>
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT">
+  <a href="https://opensource.org/licenses/Apache-2.0">
+    <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge" alt="License: Apache 2.0">
   </a>
 </p>
 
 ---
 
-TwoAuth is a free, open-source, and privacy-focused two-factor authentication (2FA) application. It is built with a **100% client-side, serverless architecture**, ensuring that your sensitive data never leaves your control.
+TwoAuth respects the people behind the screen. It's a 2FA app built on a simple, radical idea: no tracking, no ads, no data collection. Using a 100% client-side architecture and strong end-to-end encryption (AES-GCM), your sensitive data is protected and never leaves your device.
 
-This application is designed from the ground up with a security-first mindset, providing a robust, local-only fortress for your online identity.
+TwoAuth is compliant with the protocol and respects all the principles included in it: https://github.com/ObscuritySecurity/protocol-3305
 
 ### Key Features
 
