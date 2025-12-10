@@ -27,9 +27,10 @@ TwoAuth is compliant with the protocol and respects all the principles included 
 
 ### Documentation
 
-For detailed information about using the application, its security architecture, or how to contribute, please refer to the guides below.
+Explore these guides to understand our project's principles, technical design, and how you can get involved.
 
--   [**Code of Conduct**](./.github/CODE_OF_CONDUCT.md)
--   [**Contributing Guide**](./.github/CONTRIBUTING.md)
--   [**License**](./LICENSE)
--   [**Security Analysis**](./.github/SECURITY.md)
+-   [**Code of Conduct**](./.github/CODE_OF_CONDUCT.md): Our pledge to maintain a harassment-free and inclusive community.
+-   [**Contributing Guide**](./.github/CONTRIBUTING.md): Instructions on how to contribute to the project.
+-   [**License**](./LICENSE): The Apache 2.0 license under which this software is provided.
+-   [**Security Analysis**](./.github/SECURITY.md): A detailed overview of the security measures and threat model.
+-   [**Technical Architecture**](./.github/ARCHITECTURE.md): A deep dive into the technical design and encryption model.
