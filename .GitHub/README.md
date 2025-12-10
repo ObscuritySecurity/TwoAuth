@@ -34,3 +34,11 @@ Explore these guides to understand our project's principles, technical design, a
 -   [License](https://github.com/ObscuritySecurity/TwoAuth/blob/main/LICENSE) The Apache 2.0 license under which this software is provided.
 -   [Security Analysis](https://github.com/ObscuritySecurity/TwoAuth/blob/main/.GitHub/SECURITY.md) A detailed overview of the security measures and threat model.
 -   [Technical Architecture](https://github.com/ObscuritySecurity/TwoAuth/blob/main/.GitHub/ARCHITECTURE.md) A deep dive into the technical design and encryption model.
+
+### Spread the Word, Not Your Data
+
+We do not need your money. We need your voice.
+
+Our mission is to build software that respects people, and that mission can only succeed if people know there is a better way. If you believe in this project, the most valuable contribution you can make is to share it.
+
+Talk about it. Write about it. Show it to your friends. Help us prove that a private, secure, and respectful internet is not only possible—it's necessary.
