@@ -17,12 +17,23 @@ TwoAuth is compliant with the protocol and respects all the principles included 
 
 ### Key Features
 
--   **Fortress-Grade Security:** A 100% client-side architecture means no remote servers, no databases, and no external attack surface. All data is encrypted with AES-GCM and stored exclusively on your device.
--   **Universal Access:** Functions on any modern browser as a Progressive Web App (PWA), providing a native-app experience without the need for an app store.
--   **Secure Backup & Restore:** Encrypted backup options give you full control over your data portability and security.
--   **Advanced Local Protection:** Built-in defenses against brute-force attacks and an optional self-destruct mechanism provide multiple layers of security against unauthorized local access.
--   **Clean & Intuitive Interface:** A focused user experience powered by React and ShadCN UI makes managing your authentication codes effortless.
+**Advanced Security & Privacy**
+-   **Strong Master Password:** Secure your entire vault with a master password (minimum 30 characters).
+-   **Encrypted Backups:** Create fully encrypted backups protected by a unique, separate encryption key.
+-   **Critical Settings Password:** Add an optional, second password to protect access to sensitive settings.
+-   **Progressive Lockout:** The app automatically locks for increasing durations after multiple failed password attempts.
+-   **Self-Destruct Mechanism:** Optionally configure the app to automatically and securely wipe all data after a set number of failed attempts.
+-   **Access Recovery:** Regain access to your vault if you lose your master password using either 10 single-use recovery codes or a unique, one-time reset token.
+-   **Auto-Lock & Visual Obfuscation:** The app can automatically lock and blur the screen after a period of inactivity.
 
+**Effortless Code Management**
+-   **Add Codes Easily:** Add new 2FA accounts by entering details manually or by scanning a QR code from an image in your gallery.
+-   **Powerful Search:** Instantly find any code by searching for its issuer or account name.
+-   **Safe Deletion:** Move codes to a Trash area, from where you can restore them or delete them permanently.
+
+**Deep Customization**
+-   **Theme Gallery & Accent Colors:** Personalize the app's appearance with a rich theme gallery and a custom accent color picker.
+-   **Multi-Language Support:** The interface is available in over 20 languages to provide a native experience for users worldwide.
 ---
 
 ### Documentation
