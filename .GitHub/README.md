@@ -29,7 +29,7 @@ TwoAuth is compliant with the protocol and respects all the principles included 
 
 For detailed information about using the application, its security architecture, or how to contribute, please refer to the guides below.
 
--   [**User Guide**](./.github/USER_GUIDE.md) - Instructions for installing and using the application.
--   [**Security Analysis**](./.github/SECURITY.md) - A deep dive into the security model of TwoAuth.
--   [**Contributing Guide**](./.github/CONTRIBUTING.md) - How to set up the project and contribute.
--   [**Publishing Guide**](./.github/PUBLISHING_GUIDE.md) - How to package the app for different platforms.
+-   [**Code of Conduct**](./.github/CODE_OF_CONDUCT.md)
+-   [**Contributing Guide**](./.github/CONTRIBUTING.md)
+-   [**License**](./LICENSE)
+-   [**Security Analysis**](./.github/SECURITY.md)
