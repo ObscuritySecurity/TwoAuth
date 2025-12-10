@@ -54,6 +54,3 @@ We follow a standard GitHub flow for contributions.
 5.  **Open a Pull Request (PR)** from your fork's branch to the `main` branch of the original repository.
 6.  **Provide a clear description** of your changes in the PR. Explain what the PR does and why it is needed. We will review it as soon as possible.
 
-### Security Vulnerability Reporting
-
-If you discover a security vulnerability, please **DO NOT** open a public issue. Email the project maintainers directly to ensure the vulnerability is handled responsibly.
