@@ -30,7 +30,7 @@ TwoAuth is compliant with the protocol and respects all the principles included 
 Explore these guides to understand our project's principles, technical design, and how you can get involved.
 
 -   [Code of Conduct](https://github.com/ObscuritySecurity/TwoAuth/blob/main/.GitHub/CODE_OF_CONDUCT.md)** Our pledge to maintain a harassment-free and inclusive community.
--   [**Contributing Guide**](/.github/CONTRIBUTING.md): Instructions on how to contribute to the project.
+-   [**Contributing Guide**](/..github/CONTRIBUTING.md): Instructions on how to contribute to the project.
 -   [**License**](./LICENSE): The Apache 2.0 license under which this software is provided.
 -   [**Security Analysis**](/.github/SECURITY.md): A detailed overview of the security measures and threat model.
 -   [**Technical Architecture**](/.GitHub/ARCHITECTURE.md): A deep dive into the technical design and encryption model.
