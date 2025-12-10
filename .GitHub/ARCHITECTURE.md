@@ -17,7 +17,7 @@ Our security model is built on a zero-knowledge principle. We, the developers, h
 
 #### 1. Setting the Master Password
 
-When a user sets their Master Password for the first time:
+When a person sets their Master Password for the first time:
 1.  The password is **never stored directly**.
 2.  We use the browser's native `window.crypto.subtle` API, a robust and standardized cryptographic library, to perform all operations.
 3.  A **salt** (a unique, random string) is generated for the user. This prevents rainbow table attacks.
