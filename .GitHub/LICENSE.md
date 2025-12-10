@@ -1,22 +1,22 @@
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+ Licență Apache
+ Versiunea 2.0, ianuarie 2004
+ http://www.apache.org/licenses/
 
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+ TERMENI ȘI CONDIȚII DE UTILIZARE, REPRODUCERE ȘI DISTRIBUȚIE
 
-   1. Definitions.
+ 1. Definitii.
 
-      "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
+ „Licență“ înseamănă termenii și condițiile de utilizare, reproduccre,
+ și distribuția așa cum este definită de secții 1 până la 9 din prezentul document.
 
-      "Licensor" shall mean the copyright owner or entity authorized by
-      the copyright owner that is granting the License.
+ „Licenzor“ înseamănă proprietarul drepturilor de autor sau dreptul autorizării de
+ proprietarul drepturilor de autor care după Licență.
 
-      "Legal Entity" shall mean the union of the acting entity and all
-      other entities that control, are controlled by, or are under common
-      control with that entity. For the purposes of this definition,
-      "control" means (i) the power, direct or indirect, to cause the
-      direction or management of such entity, whether by contract or
+ „Entitate juridică“ înseamănă uniunea drepturile care actionează și un tuturor
+ alte drepturi care controleaza, sunt controlate de sau sunt în comun
+ control cu acea îndreptăţi. În sensul prezenţei definiţii,
+ „control“ înseamnă (i) puterea, directă sau indirectă, de a provocare
+ conduccerea sau conduccerea unei astfel de drepturi, fie prin contract, fie
       otherwise, or (ii) ownership of fifty percent (50%) or more of the
       outstanding shares, or (iii) beneficial ownership of such entity.
 
