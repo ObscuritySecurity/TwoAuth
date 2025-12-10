@@ -33,4 +33,4 @@ Explore these guides to understand our project's principles, technical design, a
 -   [**Contributing Guide**](./.github/CONTRIBUTING.md): Instructions on how to contribute to the project.
 -   [**License**](./LICENSE): The Apache 2.0 license under which this software is provided.
 -   [**Security Analysis**](./.github/SECURITY.md): A detailed overview of the security measures and threat model.
--   [**Technical Architecture**](./.github/ARCHITECTURE.md): A deep dive into the technical design and encryption model.
+-   [**Technical Architecture**](https://github.com/ObscuritySecurity/TwoAuth/blob/main/.GitHub/ARCHITECTURE.md): A deep dive into the technical design and encryption model.
