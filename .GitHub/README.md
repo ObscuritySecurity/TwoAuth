@@ -33,7 +33,7 @@ TwoAuth is compliant with the protocol and respects all the principles included 
 
 **Deep Customization**
 -   **Theme Gallery & Accent Colors:** Personalize the app's appearance with a rich theme gallery and a custom accent color picker.
--   **Multi-Language Support:** The interface is available in over 20 languages to provide a native experience for users worldwide.
+-   **Multi-Language Support:** The interface is available in over 20 languages to provide a native experience for people worldwide.
 ---
 
 ### Documentation
