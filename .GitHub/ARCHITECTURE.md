@@ -4,7 +4,7 @@ This document provides a detailed, technical overview of TwoAuth's architecture.
 
 ### Core Principle: 100% Client-Side Operation
 
-TwoAuth is a statically-exported Next.js application (`output: 'export'`). This is the most critical architectural decision: **there is no active Node.js server running in production.** All operations—including data storage, encryption, decryption, and TOTP code generation—occur exclusively within the person application on their local device.
+TwoAuth is a statically-exported Next.js application (`output: 'export'`). This is the most critical architectural decision: **there is no active Node.js server running in production.** All operations—including data storage, encryption, decryption, and TOTP code generation—occur exclusively within the people application on their local device.
 
 This model provides several fundamental security guarantees:
 -   **No Remote Data Storage:** Your secrets are never transmitted to, or stored on, a remote server. The "database" is the browser's own `localStorage`.
