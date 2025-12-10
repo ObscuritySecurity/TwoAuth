@@ -35,7 +35,7 @@ Explore these guides to understand our project's principles, technical design, a
 -   [Security Analysis](https://github.com/ObscuritySecurity/TwoAuth/blob/main/.GitHub/SECURITY.md) A detailed overview of the security measures and threat model.
 -   [Technical Architecture](https://github.com/ObscuritySecurity/TwoAuth/blob/main/.GitHub/ARCHITECTURE.md) A deep dive into the technical design and encryption model.
 
-### Spread the Word, Not Your Data
+### Spread the mission
 
 We do not need your money. We need your voice.
 
