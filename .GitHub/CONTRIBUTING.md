@@ -1,6 +1,6 @@
 # Contributing to TwoAuth
 
-First off, thank you for considering contributing to CrytoTool! We're excited to have you join our mission to build a truly private and secure digital space. Your help is essential for keeping this project great.
+First off, thank you for considering contributing to TwoAuth! We're excited to have you join our mission to build a truly private and secure digital space. Your help is essential for keeping this project great.
 
 ## How Can I Contribute?
 
