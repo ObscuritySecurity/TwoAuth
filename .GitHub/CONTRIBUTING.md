@@ -1,56 +1,51 @@
 # Contributing to TwoAuth
 
-We welcome contributions from everyone. This project thrives on community passion and a shared commitment to security and privacy.
+First off, thank you for considering contributing to CrytoTool! We're excited to have you join our mission to build a truly private and secure digital space. Your help is essential for keeping this project great.
 
-### Philosophy
-Our core principles are **Security, Privacy, and Performance**. Every contribution is evaluated against these principles. We prefer robust, simple, and secure solutions over complex ones. All code must be clean, readable, and well-organized.
+## How Can I Contribute?
 
-### Project Structure
+There are many ways to contribute, from writing code and improving documentation to reporting bugs and suggesting new features.
 
-The project is a Next.js application built with TypeScript, React, and ShadCN UI components.
+### Reporting Bugs
 
--   `src/app/`: Contains the pages and core layout of the application.
--   `src/components/`: Reusable React components, organized by feature (auth, layout, settings, ui).
--   `src/context/`: The `AppContext` lives here, managing all application state.
--   `src/hooks/`: Custom React hooks, such as `useLocalStorage` for state persistence.
--   `src/lib/`: Utility functions, translations, and theme definitions.
+If you find a bug, please create an issue on our GitHub repository. A great bug report includes:
+- A clear and descriptive title.
+- A step-by-step description of how to reproduce the issue.
+- What you expected to happen and what actually happened.
+- Screenshots or videos if they help illustrate the problem.
+- Information about your environment (OS, browser, etc.).
 
-### How to Run the Project Locally
+### Suggesting Enhancements
 
-1.  **Fork the repository.**
-2.  **Clone your fork:**
-    ```bash
-    git clone <your-fork-url>
-    ```
-3.  **Install dependencies:**
+Have an idea for a new feature or an improvement to an existing one? We'd love to hear it! Please create an issue and use the "Feature Request" template. Provide as much detail as possible about your idea and why you think it would be a valuable addition.
+
+### Submitting Pull Requests
+
+If you'd like to contribute code, please follow these steps:
+1.  **Fork the repository** on GitHub.
+2.  **Clone your fork** to your local machine: `git clone https://github.com/YOUR_USERNAME/CrytoTool.git`
+3.  **Create a new branch** for your changes: `git checkout -b your-feature-name`
+4.  **Set up the development environment**:
     ```bash
     npm install
-    ```
-4.  **Run the development server:**
-    ```bash
     npm run dev
     ```
-    The application will be available at `http://localhost:9002`.
+5.  **Make your changes**. Ensure your code follows the existing style and principles of the project.
+6.  **Commit your changes** with a clear and descriptive commit message. We follow the [Conventional Commits](https://www.conventionalcommits.org/) specification. For example:
+    - `feat: Add new backup restore functionality`
+    - `fix: Correctly handle folder deletion in trash`
+    - `docs: Update README with new feature list`
+7.  **Push your branch** to your fork: `git push origin your-feature-name`
+8.  **Open a Pull Request** to the `main` branch of the official CrytoTool repository. Provide a clear description of the problem and solution, linking to any relevant issues.
 
-### How to Contribute
+## Development Principles
 
-We follow a standard GitHub flow for contributions.
+- **Privacy First**: Any new feature must respect our zero-knowledge and no-tracking principles.
+- **Clean Code**: Write readable, well-organized, and maintainable code.
+- **Stay on Stack**: The project uses Next.js, React, TypeScript, TailwindCSS, and ShadCN UI. Please do not introduce new frameworks without prior discussion.
 
-1.  **Create a new branch** for your feature or fix from the `main` branch. Use a descriptive name.
-    ```bash
-    git checkout -b feature/my-new-feature
-    # or
-    git checkout -b fix/login-bug
-    ```
-2.  **Make your changes.** Adhere to the project's coding style and principles. Ensure your code is clean and tested.
-3.  **Commit your changes** with a clear and concise message.
-    ```bash
-    git commit -m "feat: Add new 'Dracula' theme to the theme gallery"
-    ```
-4.  **Push your branch** to your forked repository.
-    ```bash
-    git push origin feature/my-new-feature
-    ```
-5.  **Open a Pull Request (PR)** from your fork's branch to the `main` branch of the original repository.
-6.  **Provide a clear description** of your changes in the PR. Explain what the PR does and why it is needed. We will review it as soon as possible.
+## Code of Conduct
 
+We are committed to fostering an open, welcoming, and respectful community. Please be kind and considerate in all your interactions.
+
+Thank you again for your interest in TwoAuth. Together, we can build a more private digital world!
