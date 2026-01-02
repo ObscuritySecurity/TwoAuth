@@ -1,6 +1,6 @@
 # Security Analysis of TwoAuth
 
-The security of TwoAuth is not an afterthought; it is the foundation upon which the application is built. Our architecture is designed to minimize attack surfaces and give users full, exclusive control over their data.
+The security of TwoAuth is not an afterthought; it is the foundation upon which the application is built. Our architecture is designed to minimize attack surfaces and give people full, exclusive control over their data.
 
 ### Core Principle: 100% Client-Side Architecture
 
