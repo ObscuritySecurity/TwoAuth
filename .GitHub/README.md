@@ -1,3 +1,7 @@
+<img width="1024" height="1024" alt="1000005676" src="https://github.com/user-attachments/assets/7bb90aaa-8215-40be-993c-15a8a9537f27" />
+
+
+
 <div align="center">
   <h1>TwoAuth</h1>
   <strong>Your Keys, Your Fortress. The Privacy-First 2FA Authenticator.</strong>
