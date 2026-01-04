@@ -35,7 +35,7 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="assets/screenshots/Backup.jpg">
+      <a href="Assets/screenshots/Backup.jpg">
         <img src="assets/screenshots/Backup.jpg" alt="Backup — Export encryption key" width="320"/>
       </a>
       <br/><sub><i>Backup — Export encryption key</i></sub>
