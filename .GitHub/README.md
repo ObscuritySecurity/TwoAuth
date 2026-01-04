@@ -4,10 +4,30 @@
   <strong>Your Keys, Your Fortress. The Privacy-First 2FA Authenticator.</strong>
 </div>
 
+
+---
+
 <p align="center">
-  <a href="https://opensource.org/licenses/Apache-2.0">
-    <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge" alt="License: Apache 2.0">
+  <!-- License -->
+  <a href="https://github.com/ObscuritySecurity/TwoAuth/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/ObscuritySecurity/TwoAuth.svg?style=for-the-badge" alt="License">
   </a>
+
+  <!-- Last commit -->
+  <a href="https://github.com/ObscuritySecurity/TwoAuth/commits/main">
+    <img src="https://img.shields.io/github/last-commit/ObscuritySecurity/TwoAuth.svg?style=for-the-badge" alt="Last commit">
+  </a>
+
+  <!-- Open issues (informational) -->
+  <a href="https://github.com/ObscuritySecurity/TwoAuth/issues">
+    <img src="https://img.shields.io/github/issues/ObscuritySecurity/TwoAuth.svg?style=for-the-badge" alt="Open issues">
+  </a>
+
+  <!-- Data sensitivity – CRITICAL -->
+  <img src="https://img.shields.io/badge/Data%20Sensitivity-Critical-red?style=for-the-badge&logo=shield" alt="Data Sensitivity">
+
+  <!-- 2FA – mandatory -->
+  <img src="https://img.shields.io/badge/2FA-Enabled-green?style=for-the-badge&logo=auth0" alt="Two‑factor authentication">
 </p>
 
 
