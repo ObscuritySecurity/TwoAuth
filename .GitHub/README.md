@@ -1,22 +1,27 @@
- <!-- ====================  LOGO SECTION  ==================== -->
+<!-- ====================  LOGO + TITLE + SLOGAN  ==================== -->
 <div align="center">
   <!-- Responsive logo -->
   <img
     src="https://raw.githubusercontent.com/ObscuritySecurity/TwoAuth/main/Assets/logo/TwoAuth_logo.png"
     alt="TwoAuth logo"
     style="
-      max-width: 250px;   /* never larger than 250 px on wide screens */
+      max-width: 250px;   /* limit size on large screens */
       width: 80%;          /* shrink on narrow viewports */
-      height: auto;        /* keep original aspect ratio */
+      height: auto;        /* keep aspect ratio */
       border-radius: 8px;  /* optional rounded corners */
     "
   />
+
+  <!-- Application name -->
+  <h2 style="margin-top: 0.5rem; margin-bottom: 0.2rem;">TwoAuth</h2>
+
+  <!-- Slogan -->
+  <p style="font-size: 0.95rem; color:#555;">
+    <strong>Your Keys, Your Fortress.</strong> 
+    The Privacy‑First 2FA Authenticator
+  </p>
 </div>
-
-<!-- Optional short tagline underneath the logo -->
-<p align="center"><em>Your Keys, Your Fortress. The Privacy-First 2FA Authenticator</em></p>
-
-<!-- ========================================================= -->
+<!-- ================================================================= -->
   
  
 
