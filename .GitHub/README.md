@@ -1,6 +1,8 @@
  <img width="500" height="500" alt="1000009135" src="https://github.com/user-attachments/assets/2abc834c-94e1-45cb-8b13-3d58a4f33938" />
 <div align="center">
-  <h1>TwoAuth</h1>
+  
+ 
+ <h1>TwoAuth</h1>
   <strong>Your Keys, Your Fortress. The Privacy-First 2FA Authenticator.</strong>
 </div>
 
@@ -19,10 +21,6 @@
     <img src="https://img.shields.io/github/last-commit/ObscuritySecurity/TwoAuth.svg?style=for-the-badge" alt="Last commit">
   </a>
 
-  <!-- Open issues (informational) -->
-  <a href="https://github.com/ObscuritySecurity/TwoAuth/issues">
-    <img src="https://img.shields.io/github/issues/ObscuritySecurity/TwoAuth.svg?style=for-the-badge" alt="Open issues">
-  </a>
 
   <!-- Beta status -->
   <img src="https://img.shields.io/badge/Status-Beta-yellow?style=for-the-badge&logo=beta" alt="Project status">
@@ -30,9 +28,7 @@
   <!-- Data sensitivity – CRITICAL -->
   <img src="https://img.shields.io/badge/Data%20Sensitivity-Critical-red?style=for-the-badge&logo=shield" alt="Data Sensitivity">
 
-  <!-- 2FA – mandatory -->
-  <img src="https://img.shields.io/badge/2FA-Enabled-green?style=for-the-badge&logo=auth0" alt="Two‑factor authentication">
-</p>
+  
 
 
 
