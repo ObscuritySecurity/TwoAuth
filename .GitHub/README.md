@@ -50,7 +50,7 @@
       <a href="/screenshots/Trash.jpg">
         <img src="/screenshots/Trash.jpg" alt="Restore / Delete — Manage backups and accounts" width="320"/>
       </a>
-      <br/><sub><i>Restore / Delete — Manage backups and accounts</i></sub>
+      <br/><sub><i>Restore / Delete accounts</i></sub>
     </td>
   </tr>
 </table>
