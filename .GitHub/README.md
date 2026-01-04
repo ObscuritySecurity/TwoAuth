@@ -17,8 +17,8 @@
 
   <!-- Slogan -->
   <p style="font-size: 0.95rem; color:#555;">
-    <strong>Your Keys, Your Fortress.</strong> 
-    The Privacy‑First 2FA Authenticator
+    <strong>Your Keys, Your control.</strong> 
+    
   </p>
 </div>
 <!-- ================================================================= -->
