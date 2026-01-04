@@ -15,42 +15,42 @@
 <table>
   <tr>
     <td align="center">
-      <a href="/screenshots/login.jpg">
-        <img src="/screenshots/login.jpg" alt="Login — Set Master Password" width="320"/>
+      <a href="assets/screenshots/login.jpg">
+        <img src="assets/screenshots/login.jpg" alt="Login — Set Master Password" width="320"/>
       </a>
       <br/><sub><i>Login — Set Master Password</i></sub>
     </td>
     <td align="center">
-      <a href="/screenshots/Codes.jpg">
-        <img src="/screenshots/Codes.jpg" alt="Codes — Token list / OTPs" width="320"/>
+      <a href="assets/screenshots/Codes.jpg">
+        <img src="assets/screenshots/Codes.jpg" alt="Codes — Token list / OTPs" width="320"/>
       </a>
       <br/><sub><i>Codes — Token list / OTPs</i></sub>
     </td>
     <td align="center">
-      <a href="/screenshots/New_code.jpg">
-        <img src="/screenshots/New_code.jpg" alt="Add New Code — Manual entry" width="320"/>
+      <a href="assets/screenshots/New_code.jpg">
+        <img src="assets/screenshots/New_code.jpg" alt="Add New Code — Manual entry" width="320"/>
       </a>
       <br/><sub><i>Add New Code — Manual entry</i></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <a href="/screenshots/Backup.jpg">
-        <img src="/screenshots/Backup.jpg" alt="Backup — Export encryption key" width="320"/>
+      <a href="assets/screenshots/Backup.jpg">
+        <img src="assets/screenshots/Backup.jpg" alt="Backup — Export encryption key" width="320"/>
       </a>
       <br/><sub><i>Backup — Export encryption key</i></sub>
     </td>
     <td align="center">
-      <a href="/screenshots/Gallery.jpg">
-        <img src="/screenshots/Gallery.jpg" alt="Gallery / Themes — Appearance options" width="320"/>
+      <a href="assets/screenshots/Gallery.jpg">
+        <img src="assets/screenshots/Gallery.jpg" alt="Gallery / Themes — Appearance options" width="320"/>
       </a>
       <br/><sub><i>Gallery / Themes — Appearance options</i></sub>
     </td>
     <td align="center">
-      <a href="/screenshots/Trash.jpg">
-        <img src="/screenshots/Trash.jpg" alt="Restore / Delete — Manage backups and accounts" width="320"/>
+      <a href="assets/screenshots/Trash.jpg">
+        <img src="assets/screenshots/Trash.jpg" alt="Restore / Delete — Manage backups and accounts" width="320"/>
       </a>
-      <br/><sub><i>Restore / Delete accounts</i></sub>
+      <br/><sub><i>Restore / Delete — Manage backups and accounts</i></sub>
     </td>
   </tr>
 </table>
