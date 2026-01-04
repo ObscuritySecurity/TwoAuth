@@ -15,42 +15,42 @@
 <table>
   <tr>
     <td align="center">
-      <a href="Assets/screenshots/login.jpg">
-        <img src="Assets/screenshots/login.jpg" alt="Login — Set Master Password" width="320"/>
+      <a href="https://raw.githubusercontent.com/ObscuritySecurity/TwoAuth/main/Assets/screenshots/login.jpg">
+        <img src="https://raw.githubusercontent.com/ObscuritySecurity/TwoAuth/main/Assets/screenshots/login.jpg" alt="Login — Set Master Password" width="320"/>
       </a>
       <br/><sub><i>Login — Set Master Password</i></sub>
     </td>
     <td align="center">
-      <a href="Assets/screenshots/Codes.jpg">
-        <img src="Assets/screenshots/Codes.jpg" alt="Codes — Token list / OTPs" width="320"/>
+      <a href="https://raw.githubusercontent.com/ObscuritySecurity/TwoAuth/main/Assets/screenshots/Codes.jpg">
+        <img src="https://raw.githubusercontent.com/ObscuritySecurity/TwoAuth/main/Assets/screenshots/Codes.jpg" alt="Codes — Token list / OTPs" width="320"/>
       </a>
       <br/><sub><i>Codes — Token list / OTPs</i></sub>
     </td>
     <td align="center">
-      <a href="Assets/screenshots/New_code.jpg">
-        <img src="Assets/screenshots/New_code.jpg" alt="Add New Code — Manual entry" width="320"/>
+      <a href="https://raw.githubusercontent.com/ObscuritySecurity/TwoAuth/main/Assets/screenshots/New_code.jpg">
+        <img src="https://raw.githubusercontent.com/ObscuritySecurity/TwoAuth/main/Assets/screenshots/New_code.jpg" alt="Add New Code — Manual entry" width="320"/>
       </a>
       <br/><sub><i>Add New Code — Manual entry</i></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <a href="Assets/screenshots/Backup.jpg">
-        <img src="Assets/screenshots/Backup.jpg" alt="Backup — Export encryption key" width="320"/>
+      <a href="https://raw.githubusercontent.com/ObscuritySecurity/TwoAuth/main/Assets/screenshots/Backup.jpg">
+        <img src="https://raw.githubusercontent.com/ObscuritySecurity/TwoAuth/main/Assets/screenshots/Backup.jpg" alt="Backup — Export encryption key" width="320"/>
       </a>
       <br/><sub><i>Backup — Export encryption key</i></sub>
     </td>
     <td align="center">
-      <a href="Assets/screenshots/Gallery.jpg">
-        <img src="Assets/screenshots/Gallery.jpg" alt="Gallery / Themes — Appearance options" width="320"/>
+      <a href="https://raw.githubusercontent.com/ObscuritySecurity/TwoAuth/main/Assets/screenshots/Gallery.jpg">
+        <img src="https://raw.githubusercontent.com/ObscuritySecurity/TwoAuth/main/Assets/screenshots/Gallery.jpg" alt="Gallery / Themes — Appearance options" width="320"/>
       </a>
       <br/><sub><i>Gallery / Themes — Appearance options</i></sub>
     </td>
     <td align="center">
-      <a href="Assets/screenshots/Trash.jpg">
-        <img src="Assets/screenshots/Trash.jpg" alt="Restore / Delete — Manage backups and accounts" width="320"/>
+      <a href="https://raw.githubusercontent.com/ObscuritySecurity/TwoAuth/main/Assets/screenshots/Trash.jpg">
+        <img src="https://raw.githubusercontent.com/ObscuritySecurity/TwoAuth/main/Assets/screenshots/Trash.jpg" alt="Restore / Delete — Manage backups and accounts" width="320"/>
       </a>
-      <br/><sub><i>Restore / Delete — Manage backups and accounts</i></sub>
+      <br/><sub><i>Restore / Delete accounts</i></sub>
     </td>
   </tr>
 </table>
