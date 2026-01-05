@@ -4,7 +4,7 @@ The security of TwoAuth is not an afterthought; it is the foundation upon which 
 
 ### Core Principle: 100% Client-Side Architecture
 
-TwoAuth operates entirely within the people  application. It is a statically-exported application (`output: 'export'` in Next.js), which means there is **no active Node.js server running in production**. All data processing, encryption, and storage happens locally on the user's device.
+TwoAuth operates entirely within the people  application. It is a statically-exported application (`output: 'export'` in Next.js), which means there is **no active Node.js server running in production**. All data processing, encryption, and storage happens locally on the people device.
 
 This architectural choice provides fundamental protection against a vast majority of common web-based attacks.
 
